@@ -74,7 +74,7 @@ Este projeto foi desenvolvido como atividade prática em Angular, com o objetivo
   <img src="src/assets/screenshots//personagens-1.png" alt="Tela de Cadastro de Personagens 1" width="1000" alt="Tela de Cadastro de Personagens"
   <br />
   <img src="src/assets/screenshots/personagens-2.png" alt="Tela de Cadastro de Personagens 2" width="1000" alt="Tela de Cadastro de Personagens"
-
+  
 </div>
 <br>
 
