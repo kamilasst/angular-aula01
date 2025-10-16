@@ -63,19 +63,19 @@ Este projeto foi desenvolvido como atividade prática em Angular, com o objetivo
 ### 📌 Tela de Cadastro de Itens Mágicos
 <div align="center">
   <img src="src/assets/screenshots/itens-magicos-1.png" alt="Tela de Cadastro de Itens Mágicos 1" width="1000" alt="Tela de Cadastro de Itens Magicos"
-
-<div align="center">
+  <br />
   <img src="src/assets/screenshots/itens-magicos-2.png" alt="Tela de Cadastro de Itens Mágicos 2" width="1000" alt="Tela de Cadastro de Itens Magicos"
 
+</div>
 <br>
 
 ### 📌 Tela de Cadastro de Personagens
 <div align="center">
   <img src="src/assets/screenshots//personagens-1.png" alt="Tela de Cadastro de Personagens 1" width="1000" alt="Tela de Cadastro de Personagens"
-
-<div align="center">
+  <br />
   <img src="src/assets/screenshots/personagens-2.png" alt="Tela de Cadastro de Personagens 2" width="1000" alt="Tela de Cadastro de Personagens"
 
+</div>
 <br>
 
 ## 👩‍💻 Autora
