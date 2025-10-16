@@ -1,7 +1,25 @@
-.lista-cards{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap:60px;
-    padding: 30px;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+}
+
+nav {
+  background-color: #4b0082;
+  padding: 12px 24px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffd700;
 }

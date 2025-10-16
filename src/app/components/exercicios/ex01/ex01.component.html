@@ -1,0 +1,14 @@
+<div class="container">
+  <h2>{{ titulo }}</h2>
+
+  <div class="lista-funcionarios">
+    <div *ngFor="let funcionario of funcionarios" class="card" [ngStyle]="{ 'background-color': funcionario.corFundo }">
+      <p><strong>Nome:</strong> {{ funcionario.nome }}</p>
+      <p><strong>Cargo:</strong> {{ funcionario.cargo }}</p>
+      <p><strong>Status:</strong> {{ funcionario.status }}</p>
+    </div>
+  </div>
+
+  <button (click)="alternarTitulo()">Alternar Título</button>
+</div>
+

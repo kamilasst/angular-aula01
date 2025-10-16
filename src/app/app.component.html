@@ -1,13 +1,6 @@
-<h1>OLA MUNDO</h1>
+<nav>
+  <a routerLink="/itens-magicos">Itens Mágicos</a> |
+  <a routerLink="/personagens">Personagens</a>
+</nav>
 
-<p>Nome: {{retornarAlgo()}}</p>
-<p>Idade: {{idade}}</p>
-
-<button (click)="clicar()">Clique Aqui</button>
-
-<div class="lista-cards">
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-  <app-card></app-card>
-</div>
+<router-outlet></router-outlet>

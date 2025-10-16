@@ -1,0 +1,26 @@
+<div class="container">
+  <h1>Cadastro de Itens Mágicos</h1>
+
+  <div class="form">
+    <p>Nome do Item</p>
+    <input type="text" [(ngModel)]="novoItem.nome">
+
+    <p>Tipo</p>
+    <input type="text" [(ngModel)]="novoItem.tipo" placeholder="Ex: poção, espada, cajado">
+
+    <p>Poder</p>
+    <input type="number" [(ngModel)]="novoItem.poder">
+
+    <p>Imagem (URL)</p>
+    <input type="text" [(ngModel)]="novoItem.imagem">
+    <br><br>
+
+    <button (click)="salvarItem()">Salvar</button>
+  </div>
+
+  <h2 *ngIf="mostrarLista">Itens Cadastrados</h2>
+  <div class="lista" *ngIf="mostrarLista">
+    <app-card-item-magico *ngFor="let i of itens" [item]="i" />
+  </div>
+  
+</div>
